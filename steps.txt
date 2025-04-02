@@ -1,0 +1,2 @@
+python oracletogcs.py     --project mss-data-engineer-sandbox     --region us-east1     --staging_location gs://dataengg_mss     --temp_location gs://dataengg_mss/temp/     --runner DirectRunner     --service_account_email dataengg-training@mss-data-engineer-sandbox.iam.gserviceaccount.com  
+   --key-file /home/sande1/service_account_dataeng.json     --network dataengg-training-vpc     --subnetwork regions/us-east1/subnetworks/subnet1   --requirements_file requirements.txt
